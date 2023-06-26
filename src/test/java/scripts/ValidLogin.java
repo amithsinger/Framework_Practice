@@ -1,4 +1,4 @@
-package practice_with_framework;
+package scripts;
 
 import java.util.List;
 
@@ -9,8 +9,13 @@ import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class ValidLogin extends BaseTest {
+import gerics.BaseTest;
+import gerics.Excel;
+import pages.LoginPage;
+import pages.SalesPage;
 
+public class ValidLogin extends BaseTest {
+	WebDriver driver;
 	@Test(priority = 0)
 	public void testlogin() {
 		try {

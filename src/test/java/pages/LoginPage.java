@@ -1,4 +1,4 @@
-package practice_with_framework;
+package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

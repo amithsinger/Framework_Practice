@@ -1,4 +1,4 @@
-package practice_with_framework;
+package gerics;
 
 import java.time.Duration;
 
